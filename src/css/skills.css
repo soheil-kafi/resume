@@ -1,0 +1,20 @@
+.skill-bar {
+  background-color: #eeeeee;
+  height: 3px;
+}
+.skill-inner {
+  height: 100%;
+  background-color: #ffd369;
+}
+.power-100 {
+  width: 100%;
+}
+.power-75 {
+  width: 75%;
+}
+.power-50 {
+  width: 50%;
+}
+.power-25 {
+  width: 25%;
+}
