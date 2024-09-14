@@ -8,15 +8,15 @@ import MySkills from "./components/myComponent/skills/MySkills";
 
 const router = createBrowserRouter([
   {
-    Component: Layout,
+    element: <Layout />,
     children: [
       {
-        path: "/",
-        Component: App,
+        path: "resume/",
+        element: <App />,
       },
 
       {
-        path: "skills",
+        path: "resume/skills",
         element: <MySkills />,
       },
     ],

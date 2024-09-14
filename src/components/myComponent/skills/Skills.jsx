@@ -4,8 +4,8 @@ export default function Skills() {
   return (
     <div>
       <div className="row mb-5">
-        <SkillBars power={100} skillTitle={"JavaScript"} />
-        <SkillBars power={75} skillTitle={"TypeScript"} />
+        <SkillBars power={75} skillTitle={"JavaScript"} />
+        <SkillBars power={50} skillTitle={"TypeScript"} />
       </div>
       <div className="row mb-5">
         <SkillBars power={75} skillTitle={"React"} />
@@ -13,7 +13,7 @@ export default function Skills() {
       </div>
       <div className="row mb-5">
         <SkillBars power={50} skillTitle={"Next.js"} />
-        <SkillBars power={100} skillTitle={"Redux"} />
+        <SkillBars power={75} skillTitle={"Redux"} />
       </div>
       <div className="row mb-5">
         <SkillBars power={75} skillTitle={"Tailwind CSS"} />
@@ -29,8 +29,8 @@ export default function Skills() {
         <SkillBars power={75} skillTitle={"zod"} />
       </div>
       <div className="row mb-5">
-        <SkillBars power={100} skillTitle={"Rest API"} />
-        <SkillBars power={100} skillTitle={"axios"} />
+        <SkillBars power={75} skillTitle={"Rest API"} />
+        <SkillBars power={75} skillTitle={"axios"} />
       </div>
       <div className="row mb-5">
         <SkillBars power={50} skillTitle={"Node.js"} />

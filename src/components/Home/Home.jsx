@@ -26,8 +26,8 @@ export default function Home() {
               SINA
             </a>{" "}
             and then , i continue with JS , jquery , React and ... until now i
-            have <br />
-            <NavLink to={"/skills"} className="text-color">
+            have{" "}
+            <NavLink to={"/resume/skills"} className="text-color">
               these skills
             </NavLink>{" "}
           </p>
@@ -37,7 +37,7 @@ export default function Home() {
         <h4 className="text-color text-center mt-5 mb-3">WORK EXPERIENCE</h4>
         <p className="text-center fz-mid">
           at this time i have no any work experience and i like to continue my
-          journey as کارآموز
+          journey as intern
         </p>
       </div>
       <div className="fz-mid">
