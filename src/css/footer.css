@@ -25,3 +25,8 @@ a {
 .card {
   width: 24%;
 }
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 32%;
+  }
+}
