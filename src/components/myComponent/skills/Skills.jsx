@@ -1,4 +1,3 @@
-import React from "react";
 import SkillBars from "./SkillBars";
 export default function Skills() {
   return (
@@ -12,8 +11,16 @@ export default function Skills() {
         <SkillBars power={75} skillTitle={"React Hooks"} />
       </div>
       <div className="row mb-5">
-        <SkillBars power={50} skillTitle={"Next.js"} />
-        <SkillBars power={75} skillTitle={"Redux"} />
+        <SkillBars power={75} skillTitle={"Next.js 15"} />
+        <SkillBars power={75} skillTitle={"SSR"} />
+      </div>
+      <div className="row mb-5">
+        <SkillBars power={50} skillTitle={"Redux"} />
+        <SkillBars power={75} skillTitle={"zustand"} />
+      </div>
+      <div className="row mb-5">
+        <SkillBars power={75} skillTitle={"material UI"} />
+        <SkillBars power={50} skillTitle={"React query"} />
       </div>
       <div className="row mb-5">
         <SkillBars power={75} skillTitle={"Tailwind CSS"} />

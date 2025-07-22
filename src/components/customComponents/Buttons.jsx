@@ -6,7 +6,7 @@ export const Buttons = () => {
       <div>
         {/*resume*/}
         <NavLink
-          to="/resume"
+          to="/"
           className={({ isActive }) => (isActive ? "active" : "")}
           end
         >
@@ -19,7 +19,7 @@ export const Buttons = () => {
       <div>
         {/*resume*/}
         <NavLink
-          to="/resume/skills"
+          to="/skills"
           className={({ isActive }) => (isActive ? "active" : "")}
         >
           <button className="my-button btn text-color bg-secondary-color m-1">

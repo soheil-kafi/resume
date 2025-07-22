@@ -11,14 +11,22 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "resume/",
+        path: "/",
         element: <App />,
       },
+      //       {
+      //   path: "resume/",
+      //   element: <App />,
+      // },
 
       {
-        path: "resume/skills",
+        path: "/skills",
         element: <MySkills />,
       },
+      //       {
+      //   path: "resume/skills",
+      //   element: <MySkills />,
+      // },
     ],
   },
 ]);

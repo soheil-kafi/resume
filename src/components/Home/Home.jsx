@@ -1,5 +1,5 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
+import "../../css/Buttons.css";
 export default function Home() {
   return (
     <div className="pb-4">
@@ -36,8 +36,14 @@ export default function Home() {
       <div>
         <h4 className="text-color text-center mt-5 mb-3">WORK EXPERIENCE</h4>
         <p className="text-center fz-mid">
-          at this time i have no any work experience and i like to continue my
-          journey as intern
+          <a
+            href="https://sample-project-beta-pink.vercel.app/"
+            target="about:blank"
+          >
+            <button className="my-button btn light-color active">
+              next.js 15 sample project
+            </button>
+          </a>
         </p>
       </div>
       <div className="fz-mid">
